@@ -1,0 +1,48 @@
+$bd-violet:#7986CB;
+.btn-outline-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bd-violet);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }
+  .single_link {
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1%;
+    background-color: white;
+    border-bottom: #0f0f0f solid;
+}
+.single_link:hover {
+    font-weight: bolder;
+    border-color: #f56821;
+}
+$danger:#bc3e59;
+$theme-colors: (
+  "danger":     $danger,
+);
+
+.breadcrumb{
+  $breadcrumb-font-size:              null;
+$breadcrumb-padding-y:              0;
+$breadcrumb-padding-x:              0;
+$breadcrumb-item-padding-x:         .5rem;
+$breadcrumb-margin-bottom:          1rem;
+$breadcrumb-bg:                     null;
+$breadcrumb-active-color:           $danger;
+$breadcrumb-divider:                quote("/");
+$breadcrumb-divider-flipped:        $breadcrumb-divider;
+$breadcrumb-border-radius:          null;
+$breadcrumb-divider-color:$danger;
+$breadcrumb-divider:quote("✓");
+}
+.color_gradient{
+  background-image: linear-gradient(to right, #7986CB, #3f4f9c,#7986CB);
+}
